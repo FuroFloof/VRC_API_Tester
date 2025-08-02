@@ -26,7 +26,7 @@ function prompt(question) {
         password,
     });
 
-    const options = { headers: { "User-Agent": "HakaTainment/0.0.1 floofworks.0@gmail.com" } };
+    const options = { headers: { "User-Agent": "FW_TEST/0.0.1 floofworks.0@gmail.com" } };
 
     // Step 2: Instantiate APIs
     const AuthenticationApi = new vrchat.AuthenticationApi(configuration);
